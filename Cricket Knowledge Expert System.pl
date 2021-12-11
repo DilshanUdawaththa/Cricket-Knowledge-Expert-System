@@ -103,9 +103,9 @@ undo.
 
 pt(User):- 
 
-		hypothesis(User,Disease),
-		interface3(User,', Your country is ',Disease,'.'),
-        write(User),write(', Your country is '),write(Disease),write('.'),undo,end.
+		hypothesis(User,Country),
+		interface3(User,', Your country is ',Country,'.'),
+        write(User),write(', Your country is '),write(Country),write('.'),undo,end.
 
 end :-
 		nl,nl,nl,
